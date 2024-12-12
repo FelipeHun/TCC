@@ -1,4 +1,4 @@
-// src/components/Filters.js
+
 import React from 'react';
 import { FaShieldAlt, FaBeer, FaCarSide } from 'react-icons/fa'; // Importando ícones
 

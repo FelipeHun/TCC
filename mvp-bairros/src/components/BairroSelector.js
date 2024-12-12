@@ -1,4 +1,4 @@
-// src/components/BairroSelector.js
+
 import React from 'react';
 
 const BairroSelector = ({ bairros, onSelect }) => {
