@@ -31,9 +31,9 @@ const Inicio = () => {
       {/* Sobre o Projeto */}
       <section className="Sobre">
         <div className="Sobre-content">
-        <h2>Sobre o Terreo</h2>
+        <h2>Sobre o Térreo</h2>
 <p>
-  O Terreo é mais do que uma simples plataforma digital – é uma comunidade criada para conectar pessoas interessadas em descobrir e compartilhar informações detalhadas sobre os bairros das cidades brasileiras. 
+  O Térreo é mais do que uma simples plataforma digital – é uma comunidade criada para conectar pessoas interessadas em descobrir e compartilhar informações detalhadas sobre os bairros das cidades brasileiras. 
   Nosso objetivo é fornecer uma visão abrangente e confiável que vai além das estatísticas frias, trazendo experiências reais e relatos autênticos.
 </p>
 <h3>Nosso Propósito</h3>
@@ -63,7 +63,7 @@ const Inicio = () => {
     <strong>Dados Contextualizados:</strong> Apresentamos insights relevantes, com mapas interativos, análises por região e filtros personalizados para cada necessidade.
   </li>
 </ul>
-<h3>Como Funciona o Terreo?</h3>
+<h3>Como Funciona o Térreo?</h3>
 <ul>
   <li>
     <strong>Cadastro e Participação:</strong> Faça seu cadastro, escolha os bairros que você conhece e comece a avaliar diferentes aspectos como segurança, transporte, lazer, acessibilidade, custo de vida e muito mais.
@@ -93,18 +93,18 @@ const Inicio = () => {
     <strong>Transparência:</strong> Um ambiente confiável, onde os dados são validados para evitar informações enganosas.
   </li>
 </ul>
-<h3>Por Que Escolher o Terreo?</h3>
+<h3>Por Que Escolher o Térreo?</h3>
 <p>
-  Diferente de ferramentas genéricas ou opiniões superficiais encontradas na internet, o Terreo foi projetado para ser uma solução completa e confiável. Nosso diferencial está na combinação de tecnologia, colaboração da comunidade e curadoria especializada. 
+  Diferente de ferramentas genéricas ou opiniões superficiais encontradas na internet, o Térreo foi projetado para ser uma solução completa e confiável. Nosso diferencial está na combinação de tecnologia, colaboração da comunidade e curadoria especializada. 
   Aqui, os usuários têm voz ativa e contribuem diretamente para a construção de uma plataforma útil e significativa.
 </p>
 <h3>Junte-se à Nossa Comunidade</h3>
 <p>
-  No Terreo, você não é apenas um usuário, mas parte de uma rede que transforma a forma como as pessoas enxergam os bairros. Sua participação é essencial para criar um espaço colaborativo e cheio de informações valiosas. 
+  No Térreo, você não é apenas um usuário, mas parte de uma rede que transforma a forma como as pessoas enxergam os bairros. Sua participação é essencial para criar um espaço colaborativo e cheio de informações valiosas. 
   Comece hoje mesmo a compartilhar suas experiências, descobrir novas possibilidades e ajudar outras pessoas a tomarem decisões mais acertadas.
 </p>
 <p>
-  Seja um morador, visitante ou um entusiasta por urbanismo e qualidade de vida, o Terreo está aqui para tornar sua jornada mais simples e informada.
+  Seja um morador, visitante ou um entusiasta por urbanismo e qualidade de vida, o Térreo está aqui para tornar sua jornada mais simples e informada.
 </p>
 
         </div>

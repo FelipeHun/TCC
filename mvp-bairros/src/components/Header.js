@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1>Terreo - Avaliação de Bairros</h1>
+      <h1>Térreo - Avaliação de Bairros</h1>
       
       {/* Botão do menu mobile */}
       <button className="menu-toggle" onClick={toggleMenu}>
