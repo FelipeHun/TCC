@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header'; // Importando o Header
 import Inicio from './Pages/Inicio'; // Página de Início
 import Avaliacoes from './Pages/Avaliacoes'; // Página de Avaliações
+import Padrao from './Pages/padrao';
 import './App.css';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         
         {/* Definindo a rota para a página de avaliações */}
         <Route path="/avaliacoes" element={<Avaliacoes />} />
+        <Route path="/padrao" element={<Padrao />} />
       </Routes>
 
       <footer>

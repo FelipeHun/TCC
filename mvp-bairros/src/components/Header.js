@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -9,27 +8,42 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const navItems = [
+    { href: "/", text: "Início" },
+    { href: "/avaliacoes", text: "Avaliações" },
+    { href: "/padrao", text: "Bairros" },
+    { href: "/padrao", text: "Sobre" },
+    { href: "/padrao", text: "Contato" }
+  ];
+
   return (
     <header className="header">
       <h1>Térreo - Avaliação de Bairros</h1>
       
-      {/* Botão do menu mobile */}
-      <button className="menu-toggle" onClick={toggleMenu}>
+      <button 
+        className="menu-toggle" 
+        onClick={toggleMenu}
+        aria-expanded={isMenuOpen}
+        aria-label="Menu de navegação"
+      >
         <span className={`hamburger ${isMenuOpen ? 'open' : ''}`}></span>
       </button>
 
-      {/* Nav com classe dinâmica para mobile */}
       <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
-        <Link to="/" onClick={toggleMenu}>Início</Link>
-        <Link to="/avaliacoes" onClick={toggleMenu}>Avaliações</Link>
-        <Link to="#bairros" onClick={toggleMenu}>Bairros</Link>
-        <Link to="#sobre" onClick={toggleMenu}>Sobre</Link>
-        <Link to="#contato" onClick={toggleMenu}>Contato</Link>
+        {navItems.map((item) => (
+          <a 
+            key={item.text}
+            href={item.href} 
+            onClick={() => setIsMenuOpen(false)}
+          >
+            {item.text}
+          </a>
+        ))}
       </nav>
 
       <div className={`auth-icons ${isMenuOpen ? 'open' : ''}`}>
-        <button>Login</button>
-        <button>Cadastrar</button>
+        <button className="login-btn">Login</button>
+        <button className="register-btn">Cadastrar</button>
       </div>
     </header>
   );
